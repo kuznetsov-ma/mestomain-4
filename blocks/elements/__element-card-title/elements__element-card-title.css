@@ -1,0 +1,9 @@
+.elements__element-card-title {
+   font-size: 24px;
+   font-weight: 900;
+   line-height: 29.05px;
+   color: black;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   overflow: hidden; 
+}

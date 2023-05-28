@@ -1,0 +1,12 @@
+.elements__element-card-like {
+   width: 22px;
+   height: 19px;
+   background-image: url(../../../images/Like_button_inactive.png); 
+   border: none;
+}
+
+
+.elements__element-card-like:hover {
+   opacity: 0.5;
+   cursor: pointer;
+ }
