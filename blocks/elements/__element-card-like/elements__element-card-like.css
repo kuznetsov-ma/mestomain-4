@@ -1,8 +1,11 @@
 .elements__element-card-like {
    width: 22px;
    height: 19px;
-   background-image: url(../../../images/Like_button_inactive.png); 
+   background-image: url(../../../images/Like_button_inactive.svg);
    border: none;
+   background-color: transparent;
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 

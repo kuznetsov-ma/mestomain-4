@@ -10,7 +10,27 @@
     
 }
 
+
+@media screen and (max-width: 850px) {
+  .profile {
+    grid-template-columns: repeat(2, 282px);
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 320px) {
+  .profile {
+    width: calc(100% - 2*19px);
+    margin-top: 42px;
+    grid-template-columns: 282px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+
+/*@media screen and (max-width: 320px) {
     .profile {
       width: calc(100% - 2*19px);
       align-items: center;

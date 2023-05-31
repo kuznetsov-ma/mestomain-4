@@ -3,4 +3,5 @@
     height: 19px;
     opacity: 1;
     background-image: url(../../../../images/Like_button_active.png);
+    background-repeat: no-repeat;
 }
