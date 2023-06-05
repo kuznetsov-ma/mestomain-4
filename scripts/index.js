@@ -10,7 +10,6 @@ const subtitleElement = document.querySelector(".profile__subtitle");
 const userNameInput = editProfilePopup.querySelector(".popup__input_user_name");
 const userAboutInput = editProfilePopup.querySelector(".popup__input_user_about");
 
-const cardsLike = document.querySelector(".elements");
 
 function openPopup(popupElement) {
   popupElement.classList.add("popup_opened");
@@ -44,12 +43,4 @@ function FormSubmitProfile(evt) {
   });
   
   
-  formElementProfile.addEventListener("submit", FormSubmitProfile);
-
-
-  cardsLike.addEventListener("click", function (evt) {
-
-    
-    (evt.target.classList.contains("elements__element-card-like"))
-      evt.target.classList.toggle("elements__element-card-like_active");
-    });
+  formElementProfile.addEventListener("submit", FormSubmitProfile);  

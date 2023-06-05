@@ -6,5 +6,6 @@
     color: #fff;
     background-color: #000000;
     text-rendering: optimizeLegibility;
-    z-index: 0;
+    /*z-index: 0;*/
+    box-sizing: border-box;
 }

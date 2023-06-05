@@ -20,5 +20,5 @@
 
 Ссылка на GitHub Pages:
 
-https://github.com/kuznetsov-ma/mesto
-# mesto-main
+https://kuznetsov-ma.github.io/mestomain-4/
+
