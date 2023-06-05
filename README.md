@@ -21,4 +21,3 @@
 Ссылка на GitHub Pages:
 
 https://kuznetsov-ma.github.io/mestomain-4/
-
